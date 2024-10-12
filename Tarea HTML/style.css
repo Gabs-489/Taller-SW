@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(247, 247, 239);
+}
+
+
+.rounded-column{
+    border: 1px  rgb(55, 26, 32);
+    border-radius: 20px; 
+    padding: 25px; 
+    background-color:  rgb(55, 26, 32);
+}
+
+#divFinal{
+    border: 1px  rgb(55, 26, 32);
+    border-radius: 20px; 
+    padding: 30px; 
+    background-color:  rgb(55, 26, 32);
+}
+
+/* Personalizar Titulos*/
+h1 {
+    color: rgb(247, 247, 239);
+    font: "Barlow";
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#subtituloPrincipal{
+    color: rgb(247, 247, 239);
+    font: "Bitter";
+    text-align: center;
+    font-size: 20px;
+}
+
+h2 { 
+    margin: 0;
+}
+
+#otrosSubtitulos{
+    text-align: center;
+    color: rgb(55, 26, 32);
+    font: "Bitter";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Personalizar Texto general*/
+p {
+    color: rgb(37, 18, 22);
+    font: "Bitter";
+    font-size: 12px;
+    
+}
+
+#nombres {
+    text-align: center; 
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#nombresAlbum {
+    color: rgb(247, 247, 239);
+    text-align: center; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#final{
+    color: rgb(247, 247, 239);
+    text-align: center; 
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Personalizar Imagenes*/
+#integrantes {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover;
+    position: relative;
+}
+
+
+#album {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    position: relative;
+}
+
+/* Personalizar Lista*/
+.scroll-list {
+    width: 300px; 
+    height: 300px; 
+    overflow-y: scroll; 
+    background-color: rgb(247, 247, 239);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.scroll-list::-webkit-scrollbar {
+    width: 10px; 
+}
+.scroll-list::-webkit-scrollbar-track {
+    background: #e7e7e7;
+    border-radius: 5px; 
+}
+
+.scroll-list::-webkit-scrollbar-thumb {
+    background:rgb(55, 26, 32);
+    border-radius: 5px;
+}
+
+.lista-personalizada {
+    background-color: rgb(55, 26, 32);
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(247, 247, 239);
+}
+
+/* Personalizar Formulario*/
+.textoF{
+    color: rgb(37, 18, 22);
+    font: "Bitter";
+    text-align: center; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px; 
+}
+
+.formulario{
+    width: 300px; 
+    height: auto; 
+    border: 2px solid rgb(55, 26, 32); 
+    padding: 10px;
+    border-radius: 10px;
+}
